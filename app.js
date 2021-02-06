@@ -36,6 +36,6 @@ app.post('/login',(req,res)=>{
 
 
 //Configuration PORT et Hote
-app.listen(3000,'192.168.1.118',()=>{
+app.listen(3000,'localhost',()=>{
     console.log('serveur connecte')
 })
